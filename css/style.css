@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #848484; */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1280px;
+}
+
+/* HEADER START*/
+.header {
+  box-shadow: 0px 2px 4px 0px #0000000e;
+  width: 100%;
+}
+
+.header__container-wrapper {
+  padding-top: 23px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.header-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.74px;
+  color: #111517;
+}
+
+.header-togle {
+  display: flex;
+  gap: 8px;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.header-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.82px;
+  color: #111517;
+}
+/* HEADER END */
+
+/* SEARCH START */
+.search {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+  width: 480px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 19px 32px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: #848484;
+  box-shadow: 0px 2px 9px 0px #0000000e;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+
+.search-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #111517;
+}
+/* SEARCH END */
+#details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 75px;
+  justify-content: center;
+}
+
+.country {
+  width: 264px;
+}
+
+.country-img {
+  margin-bottom: 24px;
+  width: 264px;
+  height: 160px;
+}
+.country-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  padding-left: 24px;
+  font-weight: 800;
+  line-height: 26px;
+  margin-bottom: 16px;
+  color: #111517;
+}
+
+.country-Population {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  padding-left: 24px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #111517;
+  margin-bottom: 8px;
+}
+
+.country-Population:nth-child(5) {
+  margin-bottom: 46px;
+}
+
+.country-num {
+  font-weight: 300;
+}
