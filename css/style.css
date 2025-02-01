@@ -151,6 +151,8 @@ body.dark-mode .search-link {
 }
 
 .search-box {
+  position: relative;
+  z-index: 10;
   gap: 4px;
   display: flex;
   flex-direction: column;
@@ -188,6 +190,11 @@ body.dark-mode .search-link {
 }
 
 .search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   padding: 18px 22px 18px 24px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -196,6 +203,7 @@ body.dark-mode .search-link {
   flex-direction: column;
   gap: 8px;
   display: none;
+  margin-top: 4px;
 }
 
 .search-link {
@@ -215,6 +223,8 @@ body.dark-mode .search-link {
 }
 
 .countary-wrap {
+  position: relative;
+  z-index: 1;
   width: 264px;
   border-radius: 5px;
   overflow: hidden;
